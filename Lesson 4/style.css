@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    
+    line-height: 130%;
+}
+
+#contact-form {
+    background-color:rgba(46, 45, 45, 0.7);
+    padding: 20px;
+    width: 400px;
+    
+    float: left;
+    left: 50%;
+    position: absolute;
+    margin-top:30px;
+    margin-left: -260px;
+    border-radius:7px;
+}
+
+.lab {
+    padding-bottom: 15px;
+}
+
+input,   
+textarea,   
+label { 
+   font-size: 15px;  
+   font-family: Arial, san-serif;
+   
+}
+
+input,   
+textarea { 
+   width:100%;
+   background: #fff;
+   border: 0; 
+   border-radius: 4px;
+   
+   padding: 5px 0 5px 5px; 
+}
+
+input:focus,   
+textarea:focus {  
+   background-color: #E5E6E7; 
+} 
+
+textarea {
+    width:100%;
+    height: 150px;
+}
+
+small.error {
+    display: none;
+    color: #d32f2f;
+}
+
+.done_val input,
+.done_val textarea {
+    outline: #388E3C solid 1px;
+}
+
+.error_val input,
+.error_val textarea {
+    position: relative;
+    outline: #d32f2f solid 2px;
+}
+
+.formButton {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#991D57;
+    background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+    color:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    border-radius:5px;
+}
+
+.formButton:hover {
+    background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+    transition:background-color 1s ease-in-out;
+}
+
+.formButton:active {
+    box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+.error_val > small.error {
+    display: block;
+}
