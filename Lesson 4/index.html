@@ -3,44 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Lesson 4</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
-    
-    <form class="form" id="contact-form">
-        <div class="lab">
-            <label id="name">
-                <span>Введите ваше имя</span>
-                <input type="text" name="name" placeholder="Your name">
-                <small class="error">Your name can only contain letters</small>
-            </label>
+    <header>
+        <div class="logo">Интернет-магазин</div>
+        <a href="form.html"><button>Форма обратной связи</button></a>
+        <div class="cart">
+            <form action="#" class="search-form">
+                <input type="text" class="search-field">
+                <button class="btn-search" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <button class="btn-cart" type="button">Корзина</button>
+            <div class="cart-block invisible"></div>
         </div>
-        <div class="lab">
-            <label id="phone">
-                <span>Введите номер телефона</span>
-                <input type="tel" name="phone" placeholder="+7(000)000-0000">
-                <small class="error">Your name can only contain letters</small>
-            </label>
-        </div>
-        <div class="lab">
-            <label id="email">
-                <span>Введите ваш e-mail</span>
-                <input type="email" name="email" placeholder="example@site.com">
-                <small class="error">Your name can only contain letters</small>
-            </label>
-        </div>
-        <div class="lab">
-            <label id="message">
-                <span>Введите ваши комментарии</span>
-                <textarea name="message" placeholder="Ваши комментарии"></textarea>
-                <small class="error">Your name can only contain letters</small>
-            </label>
-        </div>
-            <button class="formButton">Отправить</button>
-    </form>
+    </header>
 
-    
-    <script src="form.js"></script>
+    <main>
+        <div class="products"></div>
+    </main>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
