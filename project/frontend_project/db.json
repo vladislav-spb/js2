@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "image": "1_small.jpg",
+            "name": "Стол с эпоксидной смолой Adell",
+            "price": 350,
+            "article": "T1",
+            "available": true,
+            "category": "Accessories"
+    },
+        {
+            "image": "2_small.jpg",
+            "name": "Шкаф Phoenix",
+            "price": 1500,
+            "article": "T2",
+            "available": true,
+            "category": "Accessories"
+    },
+        {
+            "image": "3_small.jpg",
+            "name": "Кровать laptop",
+            "price": 1200,
+            "article": "T3",
+            "available": true,
+            "category": "Laptop"
+    },
+        {
+            "image": "4_small.jpg",
+            "name": "кухня elegant",
+            "price": 1900,
+            "article": "T4",
+            "available": true,
+            "category": "Accessories"
+    },
+        {
+            "image": "5_small.jpg",
+            "name": "Ванная Krauch",
+            "price": 1200,
+            "article": "T5",
+            "available": false,
+            "category": "Accessories"
+    },
+        {
+            "image": "6_small.jpg",
+            "name": "Гардеробная система HOFF",
+            "price": 2000,
+            "article": "T6",
+            "available": true,
+            "category": "Accessories"
+        }
+]
+}
