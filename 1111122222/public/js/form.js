@@ -19,6 +19,7 @@
     } else {
         document.getElementById('phone').className = 'error_val';
     }
+    
     if(regexp_email.test(email) === true) {
         document.getElementById('email').className = 'done_val';
     } else {

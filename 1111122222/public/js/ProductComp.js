@@ -28,6 +28,7 @@ Vue.component('products', {
         </div>
     `
 });
+
 Vue.component('product', {
     props: ['product', 'img'],
     data() {
